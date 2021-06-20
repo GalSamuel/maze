@@ -40,7 +40,7 @@ class MainKLM2(Page):  ###class pagename(Page)
     
 class MazeKM1(Page):  ###class pagename(Page) 
     form_model='player'
-    form_fields = ['score1','time1']  
+    form_fields = ['score1']  
     def is_displayed(self):
          if self.player.condition=="KM":
              return self.round_number==1
