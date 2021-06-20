@@ -182,4 +182,3 @@ class End(Page):
 page_sequence = [Intro, Demographics, MainKLM2, MainBASE, MainKM1, MazeKLM1, MazeKLM2, MazeKLM3, MazeKLM4, MazeKLM5, MazeMM1,MazeMM2,MazeMM3,MazeMM4,MazeMM5, MazeKM1, MazeKM2, MazeKM3, MazeKM4, MazeKM5, End]
 
 
-#document.getElementById('score').value = heroScore();
