@@ -1,0 +1,33 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Welcome
+{% endblock %}
+
+{% block content %}
+<p style="text-align: right;"><span style="color: #333399;"><strong>!שלום רב וברוכים הבאים לניסוי<img src="https://html5-editor.net/tinymce/plugins/emoticons/img/smiley-smile.gif" alt="smile" />&nbsp;</strong></span></p>
+<p style="text-align: right;">&nbsp;.בשלבים הבאים תתבקשו להשלים מטלה מסוימת תחת זמן מוקצב</p>
+<p style="text-align: right;">,זמן המחקר הינו כ-20 דקות. המחקר מתבצע באופן <span style="text-decoration: underline;">אנונימי לחלוטין</span> תוך שמירה על פרטיות מלאה של הנבדקים</p>
+<p style="text-align: right;">.והמידע הנאסף מיועד לצוות הפרויקט <span style="text-decoration: underline;">בלבד</span></p>
+<p style="text-align: right;">.הנכם רשאים לעזוב את הניסוי בכל שלב אם עולה אי נוחות</p>
+<p style="text-align: right;">&nbsp;:על כל שאלה ניתן לפנות לצוות הפרויקט במייל הבא</p>
+<p style="text-align: right;"><a href="mailto:zoharbls442@gmail.com">zoharbls442@gmail.com</a></p>
+<p style="text-align: right;"><span style="color: #333399;"><strong>!בהצלחה</strong></span></p>
+<p style="text-align: right;"><strong>אנא אשרו השתתפותכם במחקר</strong></p>
+<p>&nbsp;</p>
+
+<form action="/action_page.php">
+  מאשר/ת <input type="checkbox" id="myCheck" name="test" required>
+  <input type="submit">
+</form>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myCheck").required;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+
+{% endblock %}

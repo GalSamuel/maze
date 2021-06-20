@@ -1,0 +1,21 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block content %}
+<p dir="rtl"><span style="color: #339966;">שאלון דמוגרפי (<strong>אנונימי</strong>)</span></p>
+<p dir="rtl"><span style="color: #008000;">נא ענה/י על השאלות הבאות</span></p>
+<p dir="rtl"><strong><span style="color: #339966;">!תודה לך על שיתוף הפעולה</span></strong></p>
+<p>&nbsp;</p>
+
+{% formfield player.age label="Please enter your age"%}
+{% formfield player.gender label="Please enter your gender"%}
+{% formfield player.residence label="Please enter your residence"%}
+{% formfield player.education label="Please enter years of education"%}
+    {% next_button %}
+
+
+{% endblock %}
