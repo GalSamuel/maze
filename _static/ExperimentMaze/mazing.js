@@ -102,7 +102,6 @@ Mazing.prototype.heroWins = function() {
   this.heroScore += 50;
   this.gameOver("you finished !!!");
   document.getElementById('score').value = this.heroScore;
-  pageTick() ;
 };
 
 
