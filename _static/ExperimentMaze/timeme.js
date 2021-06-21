@@ -436,7 +436,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 				TimeMe.startTimer(undefined, initialStartTime);
 			}
 		};
-		document.getElementById('time').value = TimeMe;
+		return document.getElementById('time').value = TimeMe;
 		
 	});
 }).call(this);
