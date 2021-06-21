@@ -63,6 +63,16 @@
     
 </script>
 
+<script src="timeme.js{% static 'ExperimentMaze/timeme.js' %}"></script>
+
+<input type="hidden" name="time1" id="time" />
+
+<script type="text/javascript">
+TimeMe.initialize({
+    currentPageName: "home-page", // page name
+    idleTimeoutInSeconds: 15 // time before user considered idle
+});
+</script>
 
     {% next_button %}
 {% endblock %}
