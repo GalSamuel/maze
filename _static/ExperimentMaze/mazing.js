@@ -22,7 +22,7 @@ function Mazing(id) {
   this.mazeMessage = document.createElement("div");
   this.mazeMessage.id = "maze_message";
 
-  this.heroScore = this.mazeContainer.getAttribute("data-steps") - 2;
+  this.heroScore = this.mazeContainer.getAttribute("data-steps") - 0;
 
   this.maze = [];
   this.heroPos = {};
